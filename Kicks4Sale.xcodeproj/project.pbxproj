@@ -21,6 +21,8 @@
 		E3094A8C199EDDD1000F17AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3094A6E199EDDD1000F17AA /* UIKit.framework */; };
 		E3094A94199EDDD1000F17AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3094A92199EDDD1000F17AA /* InfoPlist.strings */; };
 		E3094A96199EDDD1000F17AA /* Kicks4SaleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3094A95199EDDD1000F17AA /* Kicks4SaleTests.m */; };
+		E3094AA6199EE406000F17AA /* PostKicksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3094AA5199EE406000F17AA /* PostKicksViewController.m */; };
+		E3094AAA199EF43E000F17AA /* ImageDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = E3094AA9199EF43E000F17AA /* ImageDatabase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		E3094A91199EDDD1000F17AA /* Kicks4SaleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Kicks4SaleTests-Info.plist"; sourceTree = "<group>"; };
 		E3094A93199EDDD1000F17AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E3094A95199EDDD1000F17AA /* Kicks4SaleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Kicks4SaleTests.m; sourceTree = "<group>"; };
+		E3094AA4199EE406000F17AA /* PostKicksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostKicksViewController.h; sourceTree = "<group>"; };
+		E3094AA5199EE406000F17AA /* PostKicksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostKicksViewController.m; sourceTree = "<group>"; };
+		E3094AA8199EF43E000F17AA /* ImageDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageDatabase.h; sourceTree = "<group>"; };
+		E3094AA9199EF43E000F17AA /* ImageDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageDatabase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +118,9 @@
 		E3094A70199EDDD1000F17AA /* Kicks4Sale */ = {
 			isa = PBXGroup;
 			children = (
+				E3094AA7199EF3F4000F17AA /* Model */,
+				E3094AA3199EE3E0000F17AA /* PostKicks */,
+				E3094A9F199EE08F000F17AA /* ForSale */,
 				E3094A79199EDDD1000F17AA /* AppDelegate.h */,
 				E3094A7A199EDDD1000F17AA /* AppDelegate.m */,
 				E3094A7C199EDDD1000F17AA /* Main.storyboard */,
@@ -150,6 +159,31 @@
 				E3094A92199EDDD1000F17AA /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3094A9F199EE08F000F17AA /* ForSale */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ForSale;
+			sourceTree = "<group>";
+		};
+		E3094AA3199EE3E0000F17AA /* PostKicks */ = {
+			isa = PBXGroup;
+			children = (
+				E3094AA4199EE406000F17AA /* PostKicksViewController.h */,
+				E3094AA5199EE406000F17AA /* PostKicksViewController.m */,
+			);
+			name = PostKicks;
+			sourceTree = "<group>";
+		};
+		E3094AA7199EF3F4000F17AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E3094AA8199EF43E000F17AA /* ImageDatabase.h */,
+				E3094AA9199EF43E000F17AA /* ImageDatabase.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,7 +285,9 @@
 			files = (
 				E3094A81199EDDD1000F17AA /* ViewController.m in Sources */,
 				E3094A7B199EDDD1000F17AA /* AppDelegate.m in Sources */,
+				E3094AA6199EE406000F17AA /* PostKicksViewController.m in Sources */,
 				E3094A77199EDDD1000F17AA /* main.m in Sources */,
+				E3094AAA199EF43E000F17AA /* ImageDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
